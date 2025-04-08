@@ -18,3 +18,12 @@ docker-compose exec web python manage.py migrate
 ```
 
 ## The application is accessible at: http://localhost:8000
+
+## Links for working with API:
+- ### http://localhost:8000/api/user/registration - Creating employee
+- ### http://localhost:8000/api/user/login - Authentication
+- ### http://localhost:8000/api/restaurants - Creating restaurant
+- ### http://localhost:8000/api/menus - Uploading menu for restaurant
+- ### http://localhost:8000/api/menus/today - Getting current day menu
+- ### http://localhost:8000/api/votes - Vote for menu
+- ### http://localhost:8000/votes/today - Getting votes results for the current day
