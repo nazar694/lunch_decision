@@ -17,7 +17,7 @@ docker-compose up
 docker-compose exec web python manage.py migrate
 ```
 
-## For testing yoi need to run test using bash:
+## For testing you need to run test using bash:
 ```angular2html
 docker-compose exec web pytest
 ```
