@@ -15,7 +15,7 @@ def test_login_success(api_client, user):
 @pytest.mark.django_db
 def test_login_failure_wrong_password(api_client, user):
     response = api_client.post('/api/user/login/', {
-        'username': 'employee',
+        'username': 'Employee',
         'password': 'wrongpassword'
     })
     assert response.status_code == 401
