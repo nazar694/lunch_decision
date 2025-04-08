@@ -17,6 +17,16 @@ docker-compose up
 docker-compose exec web python manage.py migrate
 ```
 
+## For testing yoi need to run test using bash:
+```angular2html
+docker-compose exec web pytest
+```
+
+## And for checking flake8 you need to use bash:
+```angular2html
+docker-compose exec web flake8
+```
+
 ## The application is accessible at: http://localhost:8000
 
 ## Links for working with API:
